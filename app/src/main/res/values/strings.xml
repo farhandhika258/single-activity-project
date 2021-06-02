@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Stockbit-test-app</string>
+    <string name="go_to_repository">Go to repository</string>
+    <string name="load_data">Load data</string>
+    <string name="title">Load data</string>
+    <string name="masuk">Masuk</string>
+    <string name="cust_service">Support</string>
+    <string name="login">Login</string>
+    <string name="masuk_with_google">Masuk Dengan Google</string>
+    <string name="masuk_with_facebook">Masuk Dengan Facebook</string>
+    <string name="atau">Atau</string>
+    <string name="username_or_email">Username or Email</string>
+    <string name="password">Password</string>
+    <string name="lupa_password">Lupa Password</string>
+    <string name="login_fingerprint">Masuk dengan fingerprint</string>
+    <string name="no_content">Your list is empty, for now.</string>
+    <string name="no_internet_connection">Please check your internet connection</string>
+    <string name="swipe_down_message">Swipe down to refresh the page</string>
+    <string name="id">id</string>
+    <string name="all_watchlist">All Watchlist</string>
+    <string name="add_symbol">Add Symbol</string>
+    <string name="watchlist">Watchlist</string>
+    <string name="stream">Stream</string>
+    <string name="search">Search</string>
+    <string name="chat">Chat</string>
+    <string name="portfolio">Portfolio</string>
+</resources>
