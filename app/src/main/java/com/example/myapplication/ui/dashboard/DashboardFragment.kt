@@ -2,6 +2,7 @@ package com.example.myapplication.ui.dashboard
 
 import android.annotation.SuppressLint
 import android.os.Bundle
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -107,21 +108,21 @@ class DashboardFragment : BaseFragment() {
                 // Data is available
                 dashboard_recycler_view?.visibility = View.VISIBLE
                 failed_connect_layout_activity_dashboard.visibility = View.GONE
-                failed_connect_layout_activity_dashboard.visibility = View.GONE
+                no_task_layout_activity_dashboard.visibility = View.GONE
             }
 
             2 -> {
                 // Data is empty
                 dashboard_recycler_view?.visibility = View.GONE
                 failed_connect_layout_activity_dashboard.visibility = View.GONE
-                failed_connect_layout_activity_dashboard.visibility = View.VISIBLE
+                no_task_layout_activity_dashboard.visibility = View.VISIBLE
             }
 
             3 -> {
                 // Failed Connection or error occurred
                 dashboard_recycler_view?.visibility = View.GONE
                 failed_connect_layout_activity_dashboard.visibility = View.VISIBLE
-                failed_connect_layout_activity_dashboard.visibility = View.GONE
+                no_task_layout_activity_dashboard.visibility = View.GONE
             }
         }
     }
