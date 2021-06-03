@@ -1,6 +1,6 @@
 package com.example.myapplication
 
-import com.example.myapplication.di.DaggerAndroidPlaygroundComponent
+import com.example.myapplication.di.DaggerMyAppComponent
 import com.example.myapplication.libs.Const
 import com.example.myapplication.services.CryptoService
 import dagger.android.AndroidInjector
@@ -16,7 +16,7 @@ class App : DaggerApplication() {
     val realmVersion = 1L
 
     override fun applicationInjector(): AndroidInjector<App> {
-        return DaggerAndroidPlaygroundComponent.builder()
+        return DaggerMyAppComponent.builder()
                 .build()
     }
 
